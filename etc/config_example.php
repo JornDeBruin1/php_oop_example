@@ -4,7 +4,7 @@ server with default setting (user 'root' with no password) */
 define('DB_SERVER', 'localhost:3306');
 define('DB_USERNAME', 'dbuser');
 define('DB_PASSWORD', 'DBpassword21!');
-define('DB_NAME', 'db_php_oop');
+define('DB_NAME', 'php_oop_example');
  
 /* Attempt to connect to MySQL database */
 $mysqli = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
